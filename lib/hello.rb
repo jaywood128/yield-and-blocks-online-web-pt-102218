@@ -3,7 +3,7 @@ def hello_t(array)
   i = 0
 
   while i < array.length
-    pry.binding
+    binding.pry
     yield array[i]
     i += 1
   end
